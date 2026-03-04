@@ -11,6 +11,13 @@ ArrayD::ArrayD(const ArrayD& other)
     }
 }
 
+ArrayD::ArrayD(ArrayD&& other) noexcept
+    : capacity_(other.capacity_), size_(other.size_), data_(other.data_) {
+    other.data_ = nullptr;
+    other.size_ = 0;
+    other.capacity_ = 0;
+}
+
 ArrayD::ArrayD(const std::ptrdiff_t size) {
     if (size < 0) throw std::invalid_argument("ArrayD: size cannot be negative");
     if (size > 0) {

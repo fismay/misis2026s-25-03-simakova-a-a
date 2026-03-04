@@ -8,9 +8,12 @@ class ArrayD {
 public:
     ArrayD() = default;
     ArrayD(const ArrayD& other);
+    /// Перемещение: забирает буфер, источник остаётся пустым (nullptr, size 0).
+    ArrayD(ArrayD&& other) noexcept;
     ArrayD(const std::ptrdiff_t size);
     ~ArrayD();
 
+    /// Копирование и перемещение: приёмник получает состояние other (через обмен с временной копией).
     ArrayD& operator=(ArrayD other);
     void swap(ArrayD& other) noexcept;
 
