@@ -1,4 +1,4 @@
-// BitsetD — динамический битовый массив. Курс ООП, весна 2026 (МИСИС).
+// BitsetD — динамический битовый массив.
 #pragma once
 #ifndef BITSETD_BITSETD_HPP_20260214
 #define BITSETD_BITSETD_HPP_20260214
