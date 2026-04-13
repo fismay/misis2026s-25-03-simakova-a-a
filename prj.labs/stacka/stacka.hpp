@@ -1,6 +1,7 @@
+// Стек на массиве: push/pop с увеличением буфера, когда тесно.
 #pragma once
-#ifndef STACK_STACKA_HPP
-#define STACK_STACKA_HPP
+#ifndef STACK_STACKA_HPP_67676767
+#define STACK_STACKA_HPP_67676767
 #include <cstdint>
 #include <cstddef>
 class StackA {

@@ -1,4 +1,4 @@
-// Реализация BitsetD: хранение в uint32_t chunks, младший бит — индекс 0.
+// bitsetd.cpp — здесь всё «мясистое»: конструкторы, сдвиги, to_string, запись/чтение в файл.
 
 #include "bitsetd.hpp"
 
@@ -29,15 +29,6 @@ void raw_set(std::vector<std::uint32_t>& c, const std::int32_t idx, const bool v
 }
 
 }  // namespace
-
-// --- маска «хвоста» последнего chunk ---
-
-std::uint32_t BitsetD::tail_bits_mask(const std::int32_t size) noexcept {
-  if (size <= 0) return 0;
-  const int32_t rem = size % chunk_bi_s;
-  if (rem == 0) return 0xFFFFFFFFu;
-  return (UINT32_C(1) << rem) - 1u;
-}
 
 void BitsetD::apply_tail_mask() noexcept {
   if (chunks_.empty() || size_ <= 0) return;
@@ -83,30 +74,6 @@ BitsetD& BitsetD::operator=(BitsetD&& rhs) noexcept {
   }
   return *this;
 }
-
-// --- приведение к целым ---
-
-BitsetD::operator std::uint64_t() const {
-  if (size_ <= 0 || chunks_.empty()) return 0;
-  std::uint64_t low = chunks_[0];
-  std::uint64_t high = chunks_.size() > 1 ? chunks_[1] : 0;
-  std::uint64_t val = (high << 32) | low;
-  if (size_ < 64) {
-    val &= (UINT64_C(1) << size_) - UINT64_C(1);
-  }
-  return val;
-}
-
-BitsetD::operator std::uint32_t() const {
-  if (size_ <= 0 || chunks_.empty()) return 0;
-  std::uint32_t v = chunks_[0];
-  if (size_ < chunk_bi_s) {
-    v &= tail_bits_mask(size_);
-  }
-  return v;
-}
-
-// --- размер и доступ по индексу ---
 
 void BitsetD::resize(const std::int32_t new_size, const bool val) {
   if (new_size <= 0) {

@@ -1,6 +1,7 @@
+// Стек на списке — без лишнего realloc, зато свои узлы и ручной delete в деструкторе.
 #pragma once
-#ifndef STACKL_HPP
-#define STACKL_HPP
+#ifndef STACKL_HPP_67676767
+#define STACKL_HPP_67676767
 #include <cstdint>
 #include <cstddef>
 #include <initializer_list>

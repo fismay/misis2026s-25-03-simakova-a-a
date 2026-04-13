@@ -1,6 +1,7 @@
+// Динамический массив float: свой буфер, resize/insert/remove — как просили в лабе.
 #pragma once
-#ifndef ARRAYD_ARRAYD_HPP_525252
-#define ARRAYD_ARRAYD_HPP_525252
+#ifndef ARRAYD_ARRAYD_HPP_67676767
+#define ARRAYD_ARRAYD_HPP_67676767
 
 #include <cstddef>
 
@@ -8,12 +9,12 @@ class ArrayD {
 public:
     ArrayD() = default;
     ArrayD(const ArrayD& other);
-    /// Перемещение: забирает буфер, источник остаётся пустым (nullptr, size 0).
+    /// Move забирает указатель, в старом объекте остаётся пусто — так проще, чем копировать.
     ArrayD(ArrayD&& other) noexcept;
     ArrayD(const std::ptrdiff_t size);
     ~ArrayD();
 
-    /// Копирование и перемещение: приёмник получает состояние other (через обмен с временной копией).
+    /// Присваивание через копию в аргументе и swap — классика, исключения проще ловить.
     ArrayD& operator=(ArrayD other);
     void swap(ArrayD& other) noexcept;
 

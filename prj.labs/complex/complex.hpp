@@ -1,5 +1,7 @@
-#ifndef COMPLEX_COMPLEX_HPP_2025
-#define COMPLEX_COMPLEX_HPP_2025
+// Комплексное число: держу re/im вместе, чтобы не путаться в парах и выводе.
+#pragma once
+#ifndef COMPLEX_COMPLEX_HPP_67676767
+#define COMPLEX_COMPLEX_HPP_67676767
 
 #include <iosfwd>
 #include <limits>

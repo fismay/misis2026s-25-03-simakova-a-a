@@ -1,5 +1,7 @@
-#ifndef RATIONAL_RATIONAL_HPP_20231113
-#define RATIONAL_RATIONAL_HPP_20231113
+// Рациональная дробь: числитель и знаменатель, привожу к нормальному виду когда надо.
+#pragma once
+#ifndef RATIONAL_RATIONAL_HPP_67676767
+#define RATIONAL_RATIONAL_HPP_67676767
 
 #include <iosfwd>
 #include <cstdint>

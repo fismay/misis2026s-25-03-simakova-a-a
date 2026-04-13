@@ -1,6 +1,7 @@
+// Очередь на кольцевом буфере в массиве (head/tail), чтобы не сдвигать всё при pop.
 #pragma once
-#ifndef QUEUE_QUEUEA_HPP_2025
-#define QUEUE_QUEUEA_HPP_2025
+#ifndef QUEUE_QUEUEA_HPP_67676767
+#define QUEUE_QUEUEA_HPP_67676767
 
 #include <cstdint>
 #include <cstddef>

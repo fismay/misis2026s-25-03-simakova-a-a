@@ -1,9 +1,8 @@
+// Пока что не шаблон — просто typedef на float и ptrdiff_t, чтобы не усложнять.
+// Если понадобится обобщить, можно будет сделать template, логика та же.
 #pragma once
-#ifndef ARRAYT_ARRAYT_HPP_2026
-#define ARRAYT_ARRAYT_HPP_2026
-
-/// Пока без шаблонов — тип элемента и размера через typedef внутри класса.
-/// Позже можно развернуть в `template <typename T, typename S> class ArrayT` без смены логики.
+#ifndef ARRAYT_ARRAYT_HPP_67676767
+#define ARRAYT_ARRAYT_HPP_67676767
 #include <algorithm>
 #include <cstddef>
 #include <cstdint>
@@ -19,7 +18,7 @@ public:
   using value_type = float;
   using size_type = std::ptrdiff_t;
 
-  /// Значение, возвращаемое find, если элемент не найден (как у std::string::npos).
+  /// Если find ничего не нашёл — возвращаю -1, по смыслу как npos у строк.
   static constexpr size_type npos = static_cast<size_type>(-1);
 
   ArrayT() = default;

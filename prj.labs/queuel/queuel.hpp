@@ -1,6 +1,7 @@
+// Очередь на списке: enqueue в хвост, dequeue с головы.
 #pragma once
-#ifndef QUEUEL_HPP
-#define QUEUEL_HPP
+#ifndef QUEUEL_HPP_67676767
+#define QUEUEL_HPP_67676767
 #include <cstdint>
 #include <cstddef>
 class QueueL {

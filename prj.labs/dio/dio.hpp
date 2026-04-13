@@ -1,6 +1,8 @@
+// Строка в поток: сначала сделала текстовый вариант (длина + перевод строки), потом бинарный с uint64.
+// Удобно гонять через stringstream в тестах.
 #pragma once
-#ifndef DIO_DIO_HPP_2026
-#define DIO_DIO_HPP_2026
+#ifndef DIO_DIO_HPP_67676767
+#define DIO_DIO_HPP_67676767
 
 #include <cstdint>
 #include <istream>
@@ -9,10 +11,7 @@
 #include <stdexcept>
 #include <string>
 
-/// Запись и чтение std::string в потоки: текстовый префикс (длина) и бинарный блок длины + байты.
-
-/// Текстовый формат: строка из десятичной записи `size` (без ведущих нулей), символ перевода строки `\n`,
-/// затем ровно `size` байт полезной нагрузки (в т.ч. с `\0`, `\n` и произвольной UTF-8).
+/// Текстовый вариант: сверху пишу длину числом и перевод строки, ниже — сырой кусок байт (и с \\n внутри можно).
 class DioStrT {
 public:
   static void write(std::ostream& os, const std::string& s) {
@@ -22,7 +21,7 @@ public:
     }
   }
 
-  /// Подменяет содержимое `out`; при ошибке формата или обрыве потока — `std::runtime_error`.
+  /// Читаю в переданную строку; если поток оборван или формат кривой — кидаю runtime_error и очищаю out.
   static void read(std::istream& is, std::string& out) {
     std::size_t n = 0;
     if (!(is >> n)) {
@@ -45,7 +44,7 @@ public:
   }
 };
 
-/// Бинарный формат v1: `uint64_t` длины (как в памяти на little-endian машинах), затем `size` байт подряд.
+/// Бинарный вариант: 8 байт длины (uint64, как у меня в памяти), потом подряд байты строки.
 class DioStrB {
 public:
   static void write(std::ostream& os, const std::string& s) {
