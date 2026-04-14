@@ -2,8 +2,8 @@
 #ifndef ARRAYT_ARRAYT_HPP_2026
 #define ARRAYT_ARRAYT_HPP_2026
 
-/// Заготовка под шаблон: тип элемента и тип индекса/размера вынесены в typedef.
-/// Дальнейший шаг: `template <typename T, typename S> class ArrayT` с тем же кодом.
+/// Пока не шаблон: тип элемента и размера заданы через typedef (как просили на паре).
+/// Потом можно оформить как `template <typename T, typename S> class ArrayT` без смены логики.
 #include <algorithm>
 #include <cstddef>
 #include <cstdint>
