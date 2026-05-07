@@ -2,6 +2,9 @@ Unable to find executable: D:/projects/misis2026-check/misis2026s-25-03-simakova
 Unable to find executable: D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_bitsetd.exe
 Unable to find executable: doctest_bitset_io
 Unable to find executable: doctest_bitset_m
+Unable to find executable: D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuea.exe
+Unable to find executable: D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuel.exe
+Unable to find executable: D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_rational.exe
 Errors while running CTest
 Output from these tests are in: D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/build.check/Testing/Temporary/LastTest.log
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
