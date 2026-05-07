@@ -73,9 +73,9 @@ Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/
 Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_rational.exe.exe
  7/11 Test #10: doctest_rational .................***Not Run   0.00 sec
       Start 11: doctest_rational_io
- 8/11 Test  #1: doctest_arrayd ...................***Failed    0.31 sec
- 9/11 Test  #6: doctest_complex ..................   Passed    0.21 sec
-10/11 Test  #7: doctest_complex_io ...............***Failed    0.14 sec
+ 8/11 Test  #1: doctest_arrayd ...................***Failed    0.37 sec
+ 9/11 Test  #6: doctest_complex ..................   Passed    0.25 sec
+10/11 Test  #7: doctest_complex_io ...............***Failed    0.15 sec
 11/11 Test #11: doctest_rational_io ..............***Failed    0.06 sec
 
 9% tests passed, 10 tests failed out of 11
