@@ -1,11 +1,11 @@
-STAMP: 20260507-151407
+STAMP: 20260508-115241
 ERROR: file prj.test/bitsetd_profiler.cpp is absent
 OK: CMake generator successed
 ERROR: lab bitsetd - test build failed
-STATUS: lab bitsetd_m - test-ok
-STATUS: lab bitsetd_io - test-ok
+ERROR: lab bitsetd_m - test build failed
+ERROR: lab bitsetd_io - test build failed
 ERROR: lab arrayt - test build failed
-STATUS: lab arrayd - test-failed
+ERROR: lab arrayd - test build failed
 ERROR: lab queuea - test build failed
 ERROR: lab queuea_m - test build failed
 ERROR: lab queuel - test build failed
