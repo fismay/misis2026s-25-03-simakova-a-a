@@ -1,1 +1,99 @@
 Test project D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/build.check
+      Start  1: doctest_arrayd
+      Start  2: doctest_arrayt
+Could not find executable D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_arrayt.exe
+Looked in the following places:
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_arrayt.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_arrayt.exe.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/Release/doctest_arrayt.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/Release/doctest_arrayt.exe.exe
+Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_arrayt.exe
+Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_arrayt.exe.exe
+ 1/13 Test  #2: doctest_arrayt ...................***Not Run   0.00 sec
+      Start  3: doctest_bitsetd
+Could not find executable D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_bitsetd.exe
+Looked in the following places:
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_bitsetd.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_bitsetd.exe.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/Release/doctest_bitsetd.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/Release/doctest_bitsetd.exe.exe
+Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_bitsetd.exe
+Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_bitsetd.exe.exe
+ 2/13 Test  #3: doctest_bitsetd ..................***Not Run   0.00 sec
+      Start  4: doctest_bitsetd_io
+      Start  5: doctest_bitsetd_m
+      Start  6: doctest_complex
+      Start  7: doctest_complex_io
+      Start  8: doctest_queuea
+Could not find executable D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuea.exe
+Looked in the following places:
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuea.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuea.exe.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/Release/doctest_queuea.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/Release/doctest_queuea.exe.exe
+Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuea.exe
+Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuea.exe.exe
+ 3/13 Test  #8: doctest_queuea ...................***Not Run   0.00 sec
+      Start  9: doctest_queuea_m
+Could not find executable D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuea_m.exe
+Looked in the following places:
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuea_m.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuea_m.exe.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/Release/doctest_queuea_m.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/Release/doctest_queuea_m.exe.exe
+Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuea_m.exe
+Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuea_m.exe.exe
+ 4/13 Test  #9: doctest_queuea_m .................***Not Run   0.00 sec
+      Start 10: doctest_queuel
+Could not find executable D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuel.exe
+Looked in the following places:
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuel.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuel.exe.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/Release/doctest_queuel.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/Release/doctest_queuel.exe.exe
+Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuel.exe
+Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuel.exe.exe
+ 5/13 Test #10: doctest_queuel ...................***Not Run   0.00 sec
+      Start 11: doctest_queuel_m
+Could not find executable D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuel_m.exe
+Looked in the following places:
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuel_m.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuel_m.exe.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/Release/doctest_queuel_m.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/Release/doctest_queuel_m.exe.exe
+Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuel_m.exe
+Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_queuel_m.exe.exe
+ 6/13 Test #11: doctest_queuel_m .................***Not Run   0.00 sec
+      Start 12: doctest_rational
+Could not find executable D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_rational.exe
+Looked in the following places:
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_rational.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_rational.exe.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/Release/doctest_rational.exe
+D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/Release/doctest_rational.exe.exe
+Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_rational.exe
+Release/D:/projects/misis2026-check/misis2026s-25-03-simakova-a-a.git/bin.check/doctest_rational.exe.exe
+ 7/13 Test #12: doctest_rational .................***Not Run   0.00 sec
+      Start 13: doctest_rational_io
+ 8/13 Test  #1: doctest_arrayd ...................***Failed    0.37 sec
+ 9/13 Test  #4: doctest_bitsetd_io ...............   Passed    0.31 sec
+10/13 Test  #5: doctest_bitsetd_m ................   Passed    0.25 sec
+11/13 Test  #6: doctest_complex ..................   Passed    0.20 sec
+12/13 Test  #7: doctest_complex_io ...............***Failed    0.12 sec
+13/13 Test #13: doctest_rational_io ..............***Failed    0.05 sec
+
+23% tests passed, 10 tests failed out of 13
+
+Total Test time (real) =   0.50 sec
+
+The following tests FAILED:
+	  1 - doctest_arrayd (Failed)
+	  2 - doctest_arrayt (Not Run)
+	  3 - doctest_bitsetd (Not Run)
+	  7 - doctest_complex_io (Failed)
+	  8 - doctest_queuea (Not Run)
+	  9 - doctest_queuea_m (Not Run)
+	 10 - doctest_queuel (Not Run)
+	 11 - doctest_queuel_m (Not Run)
+	 12 - doctest_rational (Not Run)
+	 13 - doctest_rational_io (Failed)
